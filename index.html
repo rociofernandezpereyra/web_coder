@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emiliano Montani</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="hamburguesa.js"></script>
+    
+
 </head>
 <body>
     <header class="header_menu">
@@ -15,7 +19,7 @@
             <p class="title__logo">Emi
             </p>
         </a>
-        <nav class="header_nav">
+        <nav class="header_nav" aria-label="menú desktop">
             <ul class="ul_menu">
                 <li class="menu_espacio">
                     <a href="pages/Sobremi.html">Sobre mí</a>
@@ -31,25 +35,48 @@
                 </li>
             </ul>
         </nav>
+        <nav aria-label="menú mobile">
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+        </nav>
+        <nav class="menuppal">
+            <ul class="">
+                <li class="">
+                    <a href="pages/Sobremi.html">Sobre mí</a>
+                </li>
+                <li class="">
+                    <a href="pages/Certificaciones.html">Certificaciones</a>
+                </li>
+                <li class="">
+                    <a href="pages/Proyectos.html">Proyectos</a>
+                </li>
+                <li class="">
+                    <a href="pages/Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="inicio_main">
         <section class="section_img">
-            <img class="img__back" src="img/imagen_inicio.png">
+            <img class="img__back" src="../img/imagen_inicio.png">
         </section>
         <section class="section_text">
-            <h1>Emiliano Montani</h1>
+            <h1 class="fade-in-text">Emiliano Montani</h1>
             <p class="p_txt">Hola, soy Emiliano Montani, maquetador web y analista de accesibilidad. Mi pasión es crear experiencias digitales inclusivas, combinando diseño funcional con estándares que hacen la web accesible para todos. Me especializo en transformar ideas en sitios optimizados, rápidos y adaptables a cualquier dispositivo. Además, evalúo y mejoro la accesibilidad en proyectos, asegurándome de que sean navegables y usables para personas con diferentes capacidades. Trabajo con herramientas modernas y frameworks actuales, siempre enfocado en la calidad y la experiencia del usuario.</p>
-            <button class="btn__uno" type="button">Ver más</button>
+            <a class="btn__uno" href="/pages/Sobremi.html">Ver más</a>
         </section>
     </main>
     <footer class="footer_position">
         <p>emilianomontani@gmail.com<p>
             <ul class="lista_position">
                 <li>
-                    <a href="https://www.behance.com/emilianomontani" target="_blank"><img class="img__footer" src="img/iconobehance.png" alt="Behance"></a>
+                    <a href="https://www.behance.com/emilianomontani" target="_blank"><img class="img__footer" src="../img/iconobehance.png" alt="Behance"></a>
                 </li>
                 <li>
-                    <a href="https://www.linkedin.com/emilianomontani" target="_blank"><img class="img__footer" src="img/iconolinkedin.png" alt="Linkedin"></a>
+                    <a href="https://www.linkedin.com/emilianomontani" target="_blank"><img class="img__footer" src="../img/iconolinkedin.png" alt="Linkedin"></a>
                 </li>
             </ul>
     </footer>
