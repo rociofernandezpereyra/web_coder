@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio-EmilianoMontani</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../hamburguesa.js"></script>
 </head>
 <body>
     <header class="header_menu">
@@ -31,42 +33,65 @@
                 </li>
             </ul>
         </nav>
+        <nav aria-label="menú mobile">
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+        </nav>
+        <nav class="menuppal">
+            <ul class="">
+                <li class="">
+                    <a href="Sobremi.html">Sobre mí</a>
+                </li>
+                <li class="">
+                    <a href="Certificaciones.html">Certificaciones</a>
+                </li>
+                <li class="">
+                    <a href="Proyectos.html">Proyectos</a>
+                </li>
+                <li class="">
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="inicio_main">
         <section class="section_text_grid_proyecto">
-            <h1>Proyectos</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate a nam ratione consectetur, necessitatibus eum reiciendis, fugit, unde perspiciatis numquam vel nostrum? Accusamus culpa similique aliquid nihil quaerat asperiores.</p>
+            <h1 class="fade-in-text">Proyectos</h1>
+            <p class="p_txt">En los últimos proyectos de accesibilidad en los que he trabajado, he tenido la oportunidad de aplicar mis habilidades para mejorar la usabilidad y la inclusión digital. Cada proyecto me ha permitido enfrentar desafíos únicos y encontrar soluciones que aseguren que todos los usuarios, independientemente de sus capacidades, puedan acceder y disfrutar de una experiencia web fluida y accesible.</p>
 
             <div>
-                <h2>Proyecto 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
+                <h2>AEPD - Agencia Estatal de Protección de datos</h2>
+            <p class="p_txt">Junto al equipo de accesibilidad web, se realizan aufitorias y correciones periodicas para mejorar el acceso de todas las personas usuarias al portal. Por otro lado, se generó la declaración de accesibilidad y se proponen mejoras y soluciones frecuentes en el código para hacer más accesible el portal.</p>
                 <div class="grid_img_proyecto_two">
-                    <img class="img__proyectos_uno" src="" alt="">
-                    <img class="img__proyectos_dos" src="" alt="">
+                    <img class="img__proyectos_uno" src="../img/Aepd1.png" alt="">
+                    <img class="img__proyectos_dos" src="../img/Aepd2.png" alt="">
                 </div>
             </div>
             <div>
-            <h2>Proyecto 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
+            <h2>Bizkai.eus</h2>
+            <p class="p_txt">Con el liderazgo de Olga Carreras se generan varias tareas de seguimiento para que el portal sea accesible en todas sus pantallas desde el inicio hasta el buscador incluido en la agenda o en las noticias. Es un portal muy amplio, por lo que el trabajo es constante.</p>
             <div class="grid_img_proyecto_one">
-                <img class="img__proyectos_uno" src="" alt="">
+                <img class="img__proyectos_uno" src="../img/Bizcaia2.png" alt="">
             </div>
         </div>
             <div>
-            <h2>Proyecto 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
+            <h2>Intranet Gobierno de Aragón</h2>
+            <p class="p_txt">Trabajo coordinado con el equipo de desarrollo y el equipo de accesibilidad se trabajó la accesibilidad para las personas usuarias que ingresan y utilizan la intranet del Gobierno de Aragón.</p>
             <div class="grid_img_proyecto_two">
-                <img class="img__proyectos_uno" src="" alt="">
-                <img class="img__proyectos_dos" src="" alt="">
+                <img class="img__proyectos_uno" src="../img/GobiernodeAragon1.png" alt="">
+                <img class="img__proyectos_dos" src="../img/GobiernodeAragon2.png" alt="">
             </div>
         </div>
             <div>
-            <h2>Proyecto 4</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
+            <h2>Govern d´Andorra</h2>
+            <p class="p_txt">l equipo de diseño actualizó el portal de Andorra y se trabajó la accesibilidad en conjunto con las propuestas de diseño y de desarrollo, generando un trabajo en equipo que contempla la accesibilidad desde el comienzo. Aún se trabaja para mejorar componentes y hacerlos más accesibles.</p>
             <div class="grid_img_proyecto_three">
-                <img class="img__proyectos_uno" src="" alt="">
-                <img class="img__proyectos_dos" src="" alt="">
-                <img class="img__proyectos_tres" src="" alt="">
+                <img class="img__proyectos_uno" src="../img/Andorra1.png" alt="">
+                <img class="img__proyectos_dos" src="../img/Andorra2.png" alt="">
+                <img class="img__proyectos_tres" src="../img/Andorra3.png" alt="">
             </div>
         </div>
         </section>

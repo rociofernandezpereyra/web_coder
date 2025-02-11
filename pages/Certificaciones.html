@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio-EmilianoMontani</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../hamburguesa.js"></script>
 </head>
 <body>
     <header class="header_menu">
@@ -31,19 +33,43 @@
                 </li>
             </ul>
         </nav>
+        <nav aria-label="menú mobile">
+            <div class="hamburger">
+                <div class="_layer -top"></div>
+                <div class="_layer -mid"></div>
+                <div class="_layer -bottom"></div>
+            </div>
+        </nav>
+        <nav class="menuppal">
+            <ul class="">
+                <li class="">
+                    <a href="Sobremi.html">Sobre mí</a>
+                </li>
+                <li class="">
+                    <a href="Certificaciones.html">Certificaciones</a>
+                </li>
+                <li class="">
+                    <a href="Proyectos.html">Proyectos</a>
+                </li>
+                <li class="">
+                    <a href="Contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="inicio_main">
         <section class="section_text_certificados">
-            <h1>Certificaciones</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate a nam ratione consectetur, necessitatibus eum reiciendis, fugit, unde perspiciatis numquam vel nostrum? Accusamus culpa similique aliquid nihil quaerat asperiores.</p>
-            <h2 class="circle_icon">Certificación 1</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
-            <h2 class="circle_icon">Certificación 2</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
-            <h2 class="circle_icon">Certificación 3</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
-            <h2 class="circle_icon">Certificación 4</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, soluta. Distinctio quos corporis, cupiditate, quae officia tempore expedita ducimus ex soluta quibusdam magnam rerum molestias accusamus fugit aliquid dolorum velit.</p>
+            <h1 class="fade-in-text">Certificaciones</h1>
+            <p class="p_txt">A lo largo de mi carrera, he obtenido varias certificaciones que avalan mi conocimiento y dedicación en el campo de la accesibilidad y el diseño web. Entre ellas, destaco mi certificación como especialista en accesibilidad web, así como otros cursos enfocados en estándares internacionales como WCAG y normativas ADA. Estas certificaciones no solo me han permitido profundizar en mi campo, sino que también me han dado las herramientas necesarias para brindar soluciones accesibles y efectivas en proyectos de diseño y desarrollo web. Mi compromiso con la accesibilidad es constante, y seguiré formándome para garantizar que la tecnología sea inclusiva para todos.</p>
+            <h2 class="circle_icon">IAAP - Web Accessibility Specialist (WAS)</h2>
+            <p class="p_txt">Los titulares de la certificación IAAP Web Accessibility Specialist (WAS) han demostrado un conjunto técnico intermedio de habilidades y conocimientos contextuales y programáticos para diseñar, construir y remediar contenido y servicios digitales accesibles. Esta credencial define lo que los profesionales de la accesibilidad digital deben conocer y estar familiarizados, y tiene como objetivo aumentar la consistencia y calidad del trabajo en accesibilidad web.</p>
+            <h2 class="circle_icon">Desarrollo web accesible esencial - Linkedin</h2>
+            <p class="p_txt">Fundamentos y las mejores prácticas para crear sitios web inclusivos. Aspectos clave como la implementación de WCAG (Directrices de Accesibilidad para el Contenido Web) y cómo asegurar que el contenido digital sea accesible para todas las personas, independientemente de sus habilidades o limitaciones.</p>
+            <h2 class="circle_icon">Insuit - Curso avanzado sobre accesibilidad en páginas web y apps</h2>
+            <p class="p_txt">inSuit (Everycode) está formado por un equipo de gente comprometida con un propósito claro, buscar la universalidad en Internet.
+            El objetivo de inSuit es mejorar la accesibilidad y la usabilidad web de manera sencilla, garantizando el cumplimiento normativo y el acceso total para todas las personas.</p>
+            <h2 class="circle_icon">WAI0.1x - Introduction to Web Accessibility</h2>
+            <p class="p_txt">Introducción en los conceptos básicos de la accesibilidad web.Identificación de barreras digitales y aplicación de soluciones sencillas para hacer que los sitios web sean más accesibles para personas con discapacidades, asegurando una experiencia de navegación más inclusiva.</p>
         </section>
     </main>
     <footer class="footer_position">
